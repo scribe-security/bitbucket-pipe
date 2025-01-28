@@ -4,6 +4,8 @@ variable_mapping:
   ATTEST_CONFIG: --attest.config
   ATTEST_DEFAULT: --attest.default
   ATTESTATION: --attestation
+  BASE_IMAGE: --base-image
+  BOM: --bom
   BUNDLE: --bundle
   BUNDLE_AUTH: --bundle-auth
   BUNDLE_BRANCH: --bundle-branch
@@ -19,6 +21,7 @@ variable_mapping:
   DISABLE_CRL: --disable-crl
   EMAIL: --email
   FORCE: --force
+  FORMAT: --format
   GIT_AUTH: --git-auth
   GIT_BRANCH: --git-branch
   GIT_COMMIT: --git-commit
@@ -26,14 +29,21 @@ variable_mapping:
   INITIATIVE: --initiative
   INPUT_FORMAT: --input-format
   KEY: --key
+  KMS: --kms
   OCI: --oci
   OCI_REPO: --oci-repo
+  PASS: --pass
+  PAYLOAD: --payload
   PLATFORM: --platform
   POLICY: --policy
+  PROVENANCE: --provenance
+  PUBKEY: --pubkey
+  PUBLIC_KEY: --public-key
   RULE: --rule
   RULE_ARGS: --rule-args
   RULE_LABEL: --rule-label
   SKIP_BUNDLE: --skip-bundle
+  SKIP_CONFIRMATION: --skip-confirmation
   SKIP_REPORT: --skip-report
   URI: --uri
   CACHE_ENABLE: --cache-enable
@@ -41,6 +51,7 @@ variable_mapping:
   DELIVERABLE: --deliverable
   ENV: --env
   GATE: --gate
+  INPUT: --input
   LABEL: --label
   LEVEL: --level
   LOG_CONTEXT: --log-context

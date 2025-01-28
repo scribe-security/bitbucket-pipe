@@ -14,9 +14,13 @@ variable_mapping:
   FORMAT_TYPE: --format-type
   FORMAT_VERSION: --format-version
   KEY: --key
+  KMS: --kms
   OCI: --oci
   OCI_REPO: --oci-repo
   PARSER: --parser
+  PASS: --pass
+  PUBKEY: --pubkey
+  SKIP_CONFIRMATION: --skip-confirmation
   TOOL: --tool
   TOOL_VENDOR: --tool-vendor
   TOOL_VERSION: --tool-version
@@ -25,6 +29,7 @@ variable_mapping:
   DELIVERABLE: --deliverable
   ENV: --env
   GATE: --gate
+  INPUT: --input
   LABEL: --label
   LEVEL: --level
   LOG_CONTEXT: --log-context

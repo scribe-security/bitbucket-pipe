@@ -11,6 +11,7 @@ variable_mapping:
   DELIVERABLE: --deliverable
   ENV: --env
   GATE: --gate
+  INPUT: --input
   LABEL: --label
   LEVEL: --level
   LOG_CONTEXT: --log-context

@@ -7,6 +7,7 @@ variable_mapping:
   AUTHOR_EMAIL: --author-email
   AUTHOR_NAME: --author-name
   AUTHOR_PHONE: --author-phone
+  BASE_IMAGE: --base-image
   CA: --ca
   CERT: --cert
   COMPONENTS: --components
@@ -23,14 +24,18 @@ variable_mapping:
   GIT_COMMIT: --git-commit
   GIT_TAG: --git-tag
   KEY: --key
+  KMS: --kms
   OCI: --oci
   OCI_REPO: --oci-repo
   PACKAGE_EXCLUDE_TYPE: --package-exclude-type
   PACKAGE_GROUP: --package-group
   PACKAGE_TYPE: --package-type
+  PASS: --pass
   PAYLOAD: --payload
   PLATFORM: --platform
   PROVENANCE: --provenance
+  PUBKEY: --pubkey
+  SKIP_CONFIRMATION: --skip-confirmation
   SUPPLIER_EMAIL: --supplier-email
   SUPPLIER_NAME: --supplier-name
   SUPPLIER_PHONE: --supplier-phone
@@ -40,6 +45,7 @@ variable_mapping:
   DELIVERABLE: --deliverable
   ENV: --env
   GATE: --gate
+  INPUT: --input
   LABEL: --label
   LEVEL: --level
   LOG_CONTEXT: --log-context
