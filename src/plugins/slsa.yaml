@@ -24,11 +24,15 @@ variable_mapping:
   GIT_TAG: --git-tag
   INVOCATION: --invocation
   KEY: --key
+  KMS: --kms
   OCI: --oci
   OCI_REPO: --oci-repo
+  PASS: --pass
   PAYLOAD: --payload
   PLATFORM: --platform
   PREDICATE: --predicate
+  PUBKEY: --pubkey
+  SKIP_CONFIRMATION: --skip-confirmation
   STARTED_ON: --started-on
   STATEMENT: --statement
   CACHE_ENABLE: --cache-enable
@@ -36,6 +40,7 @@ variable_mapping:
   DELIVERABLE: --deliverable
   ENV: --env
   GATE: --gate
+  INPUT: --input
   LABEL: --label
   LEVEL: --level
   LOG_CONTEXT: --log-context
